@@ -77,12 +77,18 @@ Python
 -   autouse=True – Automatically use the fixture for all tests
 -   ids – Custom readable names for parametrized fixtures
 
-#### 7\. Best Practices
+[//]: # (#### 7\. Best Practices)
 
-### 
+[//]: # ()
+[//]: # (### )
 
--   Put shared fixtures in a file named **conftest.py** (pytest discovers it automatically).
--   Use yield for clean teardown.
--   Take advantage of built-in fixtures: tmp\_path, monkeypatch, caplog, request, etc.
--   Choose the right scope to make your tests faster.
--   Keep fixtures focused and reusable.
+[//]: # ()
+[//]: # (-   Put shared fixtures in a file named **conftest.py** &#40;pytest discovers it automatically&#41;.)
+
+[//]: # (-   Use yield for clean teardown.)
+
+[//]: # (-   Take advantage of built-in fixtures: tmp\_path, monkeypatch, caplog, request, etc.)
+
+[//]: # (-   Choose the right scope to make your tests faster.)
+
+[//]: # (-   Keep fixtures focused and reusable.)
