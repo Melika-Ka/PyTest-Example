@@ -44,7 +44,7 @@ Python
         yield gs                    # Value passed to the test
         print("finished")           # Teardown (runs after the test finishes)
 
-> **Rule**: Everything **before** yield → Setup Everything **after** yield → Teardown
+> **Rule**: Everything **before** yield → Setup Everything; **after** yield → Teardown
 
 #### 5\. Fixture Scopes
 
