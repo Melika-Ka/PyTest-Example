@@ -57,8 +57,8 @@ If it passes unexpectedly, Pytest will note it as **XPASS**.
 
 
 ```py
-import pytest from main 
-import get_speed  
+import pytest
+from main import get_speed  
 @pytest.mark.skip 
 def test_get_speed():     
     print("Test 3")     
@@ -85,7 +85,8 @@ You can define your own markers to organize different types of tests such as **s
 Example:
 
 ```py
-import pytest from main import get_speed  
+import pytest 
+from main import get_speed  
 @pytest.mark.smoke 
 def test_get_speed():     
     print("Test 1")     
@@ -121,7 +122,12 @@ To exclude a marker:
 You should register your custom markers in `pytest.ini`:
 
 
-`[pytest] markers =     smoke: quick validation tests     regression: detailed regression tests`
+```py
+[pytest] 
+     markers =     
+     smoke: quick validation tests     
+     regression: detailed regression tests
+ ```
 
 This avoids warnings from pytest about “unknown markers.”
 
