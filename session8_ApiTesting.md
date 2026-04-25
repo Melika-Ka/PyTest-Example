@@ -1,0 +1,2 @@
+- https://flask.palletsprojects.com/en/stable/testing/ 
+- https://fastapi.tiangolo.com/tutorial/testing/ 

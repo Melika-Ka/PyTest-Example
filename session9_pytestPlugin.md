@@ -1,0 +1,4 @@
+- https://docs.pytest.org/en/stable/reference/plugin_list.html 
+  - https://pypi.org/project/pytest-flask/ 
+  - https://pypi.org/project/pytest-cov/ 
+    - https://pytest-cov.readthedocs.io/en/latest/reporting.html
